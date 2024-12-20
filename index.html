@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/font-awesome.css" />
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="images/Logo Ipsum.png" />
+  <title>Web Dev. | Home Page!</title>
+</head>
+
+<body onload="countFunction()">
+  <nav class="navbar navbar-expand-lg fixed-top  text-dark       ">
+    <div class="container-xl bg-light rounded-4 ">
+      <a href="#" class="navbar-brand">
+        <img src="images/Logo Ipsum.png" alt="" width="200">
+      </a>
+
+      <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" class="navbar-toggler">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#Home" class="nav-link active fw-bold ">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Services" class="nav-link fw-semibold ">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Portfolio" class="nav-link fw-semibold ">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link fw-semibold">About</a>
+          </li>
+          <li class="nav-item ">
+            <a href="contact.html" class="nav-link btn btn-outline-secondary  px-3 mx-3 fw-semibold  ">Contact Us</a>
+          </li>
+          <li class="nav-item m-auto icon-social">
+            <a href="#" class="navbar-brand ">
+              <img src="images/icon-facebook.png" alt="" width="30">
+            </a>
+            <a href="#" class="navbar-brand">
+              <img src="images/icon-insta.png" alt="" width="30">
+            </a>
+            <a href="#" class="navbar-brand">
+              <img src="images/icon-youtub.png" alt="" width="30">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="header bg-dark " id="Home">
+    <div class="hero text-white pt-8">
+      <div class="container-xl ">
+        <div class="row ">
+          <div class="col-md-6">
+            <div class="text-container p-4 d-flex flex-column  justify-content-center h-100 mb-5 ">
+              <h1 class="display-4  fw-light lh-1">Welcom!</h1>
+              <h1 class="display-3  fw-bold lh-1">Software Solutions for Your Business...</h1>
+              <h4 class=" fw-normal lh-1">Reach out in one complete step</h4>
+              <div class="form-container text-center ">
+
+                <form action="" id="contactEmail">
+                  <input required type="email" id="emailContactInput"
+                    class="form-control rounded-4 bg-light  text-success  " placeholder="Email Address">
+                  <button type="submit"
+                    class="btn btn-primary btn-outline-secondary  text-success fw-bold  form-control mt-3 rounded-4">Submit</button>
+                </form>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6">
+            <div class="image-container   headerImage h-100 mb-5 ">
+              <img src="images/HomePage-image.jpg" alt="" class="img-fluid rounded-pill" width="600">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="bg-info pb-2 shadow" id="Services">
+    <div class="container-xl ">
+
+      <div class="row pt-4 ">
+        <div class="col-sm-6 col-lg-3  d-flex gap-3 ">
+          <i class="fa-solid fa-laptop-code fa-2x text-primary"></i>
+          <div>
+            <h6 class="fw-bold pt-2">Software Development</h6>
+            <p class="text-muted ">creating tailor-made software solutions for clients based on their specific
+              requirements.</p>
+          </div>
+
+        </div>
+        <div class="col-sm-6 col-lg-3 d-flex gap-3">
+          <i class="fa-solid fa-user-gear fa-2x text-primary"></i>
+          <div>
+            <h6 class="fw-bold pt-2">Software Consulting</h6>
+            <p class="text-muted ">Providing expert advice and guidance to businesses on software-related matters.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 d-flex gap-3">
+          <i class="fa-solid fa-laptop-code fa-2x text-primary"></i>
+          <div>
+            <h6 class="fw-bold pt-2 ">Quality Assurance & Testing</h6>
+            <p class="text-muted ">Quality and reliability of software products through rigorous testing
+              processes.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 d-flex gap-3">
+          <i class="fa-solid fa-laptop-code fa-2x text-primary"></i>
+          <div>
+            <h6 class="fw-bold pt-2  ">Maintenance and Support</h6>
+            <p class="text-muted ">Offering ongoing maintenance and technical support services to clients.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-xl">
+      <div class="row ">
+        <div class="col-md-4 ">
+          <table class="table table-hover table-striped  text-capitalize  ">
+            <thead>
+              <tr>
+                <th class="text-center ">
+                  <h3 class="text-primary display-5 fw-semibold  ">Basic</h3>
+                  <i class="fa-solid fa-dollar-sign text-primary display-6 ">299</i>
+                  <h6 class="fw-normal text-dark ">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+                </th>
+              </tr>
+            </thead>
+            <tbody class="text-primary fw-semibold ">
+              <tr>
+                <td class="">
+                  <i class="fa-regular fa-circle-check"></i>
+                  <h5 class="d-inline-flex  ">4 Page Website</h5>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa-regular fa-circle-check"></i>
+                  <h5 class="d-inline ">$7 Month</h5>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa-regular fa-circle-check"></i>
+                  <h5 class="d-inline ">Responsive Design</h5>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa-regular fa-circle-check"></i>
+                  <h5 class="d-inline ">1 Content update per month</h5>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa-solid fa-circle-xmark text-danger "></i>
+                  <h5 class="d-inline ">Contact Form</h5>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa-solid fa-circle-xmark text-danger "></i>
+                  <h5 class="d-inline ">Admin Page</h5>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa-regular fa-circle-check "></i>
+                  <h5 class="d-inline ">Limited Maintenance and Support</h5>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-md-4 bg-light rounded-5  ">
+          <table class="table table-hover table-striped  text-capitalize  ">
+            <thead>
+              <tr>
+                <th class="text-center ">
+                  <h3 class="text-primary display-5 fw-semibold  ">Standard</h3>
+                  <i class="fa-solid fa-dollar-sign text-primary display-6 ">599</i>
+                  <h6 class="fw-normal text-dark ">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+                </th>
+              </tr>
+            </thead>
+            <tbody class="text-primary fw-semibold ">
+              <tr>
+                <td class="">
+                  <i class="fa-regular fa-circle-check"></i>
+                  <h5 class="d-inline-flex  ">6 Page Website</h5>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa-regular fa-circle-check"></i>
+                  <h5 class="d-inline ">$14 Month</h5>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa-regular fa-circle-check"></i>
+                  <h5 class="d-inline ">Responsive Design</h5>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa-regular fa-circle-check"></i>
+                  <h5 class="d-inline ">2 Content update per month</h5>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa-regular fa-circle-check"></i>
+                  <h5 class="d-inline ">1 Contact Form</h5>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa-solid fa-circle-xmark text-danger "></i>
+                  <h5 class="d-inline ">Admin Page</h5>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa-regular fa-circle-check"></i>
+                  <h5 class="d-inline ">Extended Maintenance and Support</h5>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-md-4 ">
+          <table class="table table-hover table-striped  text-capitalize">
+            <thead>
+              <tr>
+                <th class="text-center ">
+                  <h3 class="text-primary display-5 fw-semibold  ">Premium</h3>
+                  <i class="fa-solid fa-dollar-sign text-primary display-6 ">899</i>
+                  <h6 class="fw-normal text-dark ">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+                </th>
+              </tr>
+            </thead>
+            <tbody class="text-primary fw-semibold ">
+              <tr>
+                <td class="">
+                  <i class="fa-regular fa-circle-check"></i>
+                  <h5 class="d-inline-flex  ">10 Page Website</h5>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa-regular fa-circle-check"></i>
+                  <h5 class="d-inline ">$21 Month</h5>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa-regular fa-circle-check"></i>
+                  <h5 class="d-inline ">Responsive Design</h5>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa-regular fa-circle-check"></i>
+                  <h5 class="d-inline ">3 Content update per month</h5>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa-regular fa-circle-check"></i>
+                  <h5 class="d-inline ">2 Contact Form</h5>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa-regular fa-circle-check"></i>
+                  <h5 class="d-inline ">Admin Page</h5>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa-regular fa-circle-check"></i>
+                  <h5 class="d-inline ">Dedicated Maintenance and Support</h5>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="container-xl">
+      <div class="row">
+        <div class="col-md-12  ounded-1   ">
+          <h3 class="fw-semibold text-center text-dark  m-auto" id="Portfolio">OUR WEb DEVELOPMENT SOLUTION & STRATEGY
+          </h3>
+        </div>
+        <div class="col-12 bg-light text-center  rounded-5">
+          <div class="row pt-3 m-auto ">
+            <div class="col-md-3    d-flex gap-2  ">
+              <i class="fa-solid fa-arrow-right fa-2x text-primary "></i>
+              <h4 class="fw-semibold ">Consultation & Search</h4>
+            </div>
+            <div class="col-md-3  d-flex gap-2 ">
+              <i class="fa-solid fa-arrow-right fa-2x text-primary   "></i>
+              <h4 class="fw-semibold  ">Plan & Design</h4>
+            </div>
+            <div class="col-md-3 d-flex gap-2 ">
+              <i class="fa-solid fa-arrow-right fa-2x text-primary  "></i>
+              <h4 class="fw-semibold  ">Development & Testing</h4>
+            </div>
+            <div class="col-md-3 d-flex gap-2 ">
+              <i class="fa-solid fa-arrow-right fa-2x text-primary   "></i>
+              <h4 class="fw-semibold  ">Launch & Maintenace</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="bg-dark my-5 pb-5 shadow ">
+    <div class="container-xl">
+      <div class="row pt-5 m-auto  ">
+        <div class="col-md-4 my-2 ">
+          <div class="card rounded-3 bg-light  text-dark   ">
+            <img src="images/Home Page – 1.png" height="250" class="card-img-top " alt="" />
+            <div class="card-body text-center ">
+              <h5 class="card-title fw-semibold  ">Blog Design & Development Services</h5>
+              <p class="card-text ">
+                Unlock the power of development with our expert blog service. + + + +
+              </p>
+              <p class="card-text">
+                Click below to read more!
+              </p>
+              <a class="btn btn-primary btn-outline-secondary  text-white" data-bs-toggle="modal"
+                data-bs-target="#project1">More
+                Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 my-2">
+          <div class="card rounded-3 bg-info  text-dark   ">
+            <img src="images/Web 1920 – 9.png" height="250" class="card-img-top " alt="" />
+            <div class="card-body text-center ">
+              <h5 class="card-title fw-semibold  ">Form Design & Development Services</h5>
+              <p class="card-text ">
+                Revolutionize your contact forms with our development-focused design service.
+              </p>
+              <p class="card-text">
+                Click below to read more!
+              </p>
+              <a class="btn btn-primary btn-outline-secondary  text-white" data-bs-toggle="modal"
+                data-bs-target="#project2">More
+                Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 my-2 ">
+          <div class="card rounded-3 bg-light  text-dark   ">
+            <img src="images/Web 1920 – 7.png" height="250" class="card-img-top " alt="" />
+            <div class="card-body text-center ">
+              <h5 class="card-title fw-semibold   ">Content UI/UX Services</h5>
+              <p class="card-text ">
+                Transform your software's user experience with our development-focused content design service.
+              </p>
+              <p class="card-text" id="about">
+                Click below to read more!
+              </p>
+              <a class="btn btn-primary btn-outline-secondary  text-white" data-bs-toggle="modal"
+                data-bs-target="#project3">More
+                Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="project1" class="modal fade">
+    <div class="modal-dialog modal-lg mt-5">
+      <div class="modal-content p-4 ">
+        <div class="card">
+          <div class="card-body ">
+            <h5 class="card-title text-capitalize fw-bold ">Company X design & development for Blog section</h5>
+            <h6 class="card-subtitle fw-semibold ">Posted: Jan. 15th, 2024 by Eric Lose</h6>
+            <p class="card-text pt-2  ">
+              Dive into our insightful posts tailored for software enthusiasts, developers, and
+              tech aficionados. From coding tips to industry trends, we're your go-to resource for staying ahead
+              in the ever-evolving world of software development.
+            </p>
+            <p class="card-text ">
+              Dive into our insightful posts tailored for software enthusiasts, developers, and
+              tech aficionados. From coding tips to industry trends, we're your go-to resource for staying ahead
+              in the ever-evolving world of software development.
+            </p>
+            <a class="btn btn-primary btn-outline-secondary vstack  text-white" data-bs-dismiss="modal"
+              data-bs-target="#project1">Close</a>
+          </div>
+          <img src="images/Home Page – 1.png" class="card-img-top img-fluid " alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="project2" class="modal fade">
+    <div class="modal-dialog modal-lg mt-5">
+      <div class="modal-content p-4 ">
+        <div class="card ">
+          <div class="card-body ">
+            <h5 class="card-title text-capitalize fw-bold ">Company Y design & development for contact form section</h5>
+            <h6 class="card-subtitle fw-semibold ">Posted: Feb. 15th, 2024 by Sarah Grey</h6>
+            <p class="card-text pt-2  ">
+              We specialize in crafting sleek and intuitive contact forms that seamlessly integrate with your
+              software solutions. From user-friendly interfaces to efficient data collection, we'll ensure your
+              contact forms elevate user experience and drive engagement. Simplify communication and streamline
+              interactions with our expert design solutions.
+            </p>
+            <p class="card-text ">
+              Our team of expert designers combines functionality with aesthetics to create contact forms that
+              not only look great but also enhance user experience and streamline communication. Whether you need
+              a simple inquiry form or a complex support ticketing system, we've got you covered.
+            </p>
+            <a class="btn btn-primary btn-outline-secondary vstack  text-white" data-bs-dismiss="modal"
+              data-bs-target="#project2">Close</a>
+          </div>
+          <img src="images/Web 1920 – 9.png" class="card-img-top img-fluid " alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="project3" class="modal fade">
+    <div class="modal-dialog modal-lg mt-5">
+      <div class="modal-content p-4 ">
+        <div class="card ">
+          <div class="card-body ">
+            <h5 class="card-title text-capitalize fw-bold ">Company z UI/UX content design & development section</h5>
+            <h6 class="card-subtitle fw-semibold ">Posted: Feb. 18th, 2024 by William White</h6>
+            <p class="card-text pt-2  ">
+              Transform your software's user experience with our development-focused content design service. From
+              intuitive
+              interfaces to engaging user journeys, we specialize in crafting compelling content that enhances usability
+              and
+              drives engagement. Elevate your software's appeal and functionality with our expert design solutions.
+            </p>
+            <p class="card-text">
+              Our team of experienced content designers combines technical expertise with creative flair to craft
+              engaging
+              content that enhances your software's appeal and functionality. Whether you need user interface copy,
+              instructional
+              guides, or developer documentation, we've got you covered.
+            </p>
+            <a class="btn btn-primary btn-outline-secondary vstack  text-white" data-bs-dismiss="modal"
+              data-bs-target="#project3">Close</a>
+          </div>
+          <img src="images/Web 1920 – 7.png" class="card-img-top img-fluid " alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="bg-info  my-5 pb-5 shadow-lg  ">
+    <div class="container-xl">
+      <div class="row pt-5 m-auto">
+        <div class="col-md-3 text-center ">
+          <i class="fa-regular fa-handshake  fa-2x text-warning"></i>
+          <div>
+            <h4 class="fw-semibold text-dark text-capitalize ">Meet LoremIpsum Where Technology Meets Creativity</h4>
+            <a class="btn btn-primary btn-outline-secondary  text-white text-capitalize my-3" data-bs-toggle="modal"
+              data-bs-target="#openAbout">see our values</a>
+          </div>
+        </div>
+        <div class="col-md-9 my-3  ">
+          <div class="d-flex gap-3  ">
+            <i class="fa-solid fa-bullseye fa-3x text-primary  pt-2"></i>
+            <div class="mission">
+              <h5 class="text-dark text-capitalize ps-2 ">our mission is to revolutionize industries and empower
+                businesses throughinnovative software solutions. We believe in the power of technology to drive
+                positive change and create new opportunities for growth and success.</h5>
+            </div>
+          </div>
+          <div class="d-flex gap-3 pt-2 ">
+            <i class="fa-solid fa-eye fa-3x text-primary   pt-2"></i>
+            <div>
+              <h5 class="text-dark text-capitalize ">our vision is to be recognized as a leader in software innovation,
+                known for our commitment to excellence, integrity, and customer satisfaction. We aspire to make a
+                positive
+                impact on the world by empowering businesses with transformative technology solutions that drive
+                sustainable growth and prosperity.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="openAbout" class="modal fade">
+    <div class="modal-dialog modal-lg mt-5">
+      <div class="modal-content p-4 ">
+        <div class="card ">
+          <div class="card-body">
+            <h5 class="card-title text-capitalize fw-bold ">Our Values</h5>
+            <p class="card-text pt-2 ">
+              Expertise: Our team comprises seasoned professionals with years of experience in software development,
+              design, and strategy. We bring a wealth of knowledge and expertise to every project we undertake.</p>
+            <p class="card-text pt-2 ">
+              Innovation: We're committed to staying ahead of the curve and embracing the latest technologies and trends
+              in the ever-evolving world of software development. From AI and machine learning to blockchain and IoT,
+              we're always exploring new possibilities to push the boundaries of what's possible.</p>
+            <p class="card-text pt-2 ">
+              Collaboration: We believe in the power of collaboration and teamwork. We work closely with our clients to
+              understand their unique challenges and goals, ensuring that we deliver solutions that exceed their
+              expectations.</p>
+            <a class="btn btn-primary btn-outline-secondary vstack  text-white" data-bs-dismiss="modal"
+              data-bs-target="#openAbout">Close</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="bg-info shadow-lg ">
+    <div class="container-xl ">
+
+      <div class="row pt-5 m-auto border-3  pb-5 ">
+        <div class="col-md-12 bg-light rounded-5  border bg-black text-white">
+          <div class="pt-2 ms-6 position-absolute">
+            <i class="fa-solid fa-star text-warning "></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <div class="d-flex gap-3 pt-4 ">
+            <img src="images/profile1.png" alt="" class="rounded-circle" width="60">
+            <h5 class="pt-3 fw-semibold ">David Lee</h5>
+          </div>
+          <p class="pt-1 fst-italic">
+            "We've been working with LoremIpsum for several years now, and they've become an invaluable partner to
+            our business. Their attention to detail, technical prowess, and commitment to customer satisfaction are
+            unmatched. Thanks to their innovative software solutions, we've been able to streamline our processes,
+            improve efficiency, and stay ahead of the competition. I can't recommend LoremIpsum highly enough!"
+          </p>
+        </div>
+        <div class="col-md-12 bg-info rounded-5  border bg-dark text-white ">
+          <div class="pt-2 ms-6 position-absolute">
+            <i class="fa-solid fa-star text-warning "></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star-half-stroke text-warning "></i>
+          </div>
+          <div class="d-flex gap-3 pt-4 ">
+            <img src="images/profile3.png" alt="" class="rounded-circle" width="60">
+            <h5 class="pt-3 fw-semibold ">Emily Johnson</h5>
+          </div>
+          <p class="pt-1 fst-italic ">
+            "I am thoroughly impressed with the professionalism and expertise of LoremIpsum. Their team took our
+            concept and turned it into a robust software solution that has transformed the way we do business. The
+            communication throughout the project was excellent, and they delivered on time and within budget. I highly
+            recommend LoremIpsum to anyone looking for top-notch software development services."</p>
+        </div>
+        <div class="col-md-12 bg-light rounded-5 border bg-black text-white">
+          <div class="pt-2 ms-6 position-absolute">
+            <i class="fa-solid fa-star text-warning "></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+          </div>
+          <div class="d-flex gap-3 pt-4 ">
+            <img src="images/profile2.png" alt="" class="rounded-circle" width="60">
+            <h5 class="pt-3 fw-semibold ">Wan Luck</h5>
+          </div>
+          <p class="pt-1 fst-italic">
+            "Choosing [Company Name] for our software development needs was one of the best decisions we've made. From
+            the initial consultation to the final delivery, their team demonstrated professionalism, expertise, and a
+            genuine commitment to our success. The software they developed for us not only met but exceeded our
+            expectations, and their ongoing support has been exceptional. I wouldn't hesitate to work with [Company
+            Name] again in the future."</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="bg-dark text-white border-top border-4 border-primary mt-0 pb-5 shadow-lg ">
+    <div class="container-xl ">
+
+      <div class="row pt-3">
+        <div class="col-md-8 offset-md-2 text-center">
+          <div class="row ">
+            <div class="col-4 ">
+              <a href="#" class=" ">
+                <img src="images/icon-facebook.png" alt="" width="50">
+              </a>
+            </div>
+            <div class="col-4 ">
+              <a href="#" class="">
+                <img src="images/icon-insta.png" alt="" width="50">
+              </a>
+            </div>
+            <div class="col-4 ">
+              <a href="#" class="">
+                <img src="images/icon-youtub.png" alt="" width="50">
+              </a>
+            </div>
+            <div>
+              <h3 class="fw-semibold  text-center pt-2 text-capitalize ">Stay in tuch with our news!</h3>
+            </div>
+          </div>
+          <div class="row m-auto pt-3 ">
+            <div class="col-4 bg-white text-dark rounded-3 border pt-1 inBusiness">
+
+              <div>
+                <h5 class="fw-semibold text-capitalize ">Days in business</h5>
+              </div>
+            </div>
+            <div class="col-4 bg-light  text-dark rounded-3 border pt-1 infoResults2">
+
+              <div>
+                <h5 class="fw-semibold text-capitalize ">Successful Projects</h5>
+              </div>
+            </div>
+            <div class=" col-4 bg-white text-dark rounded-3 border pt-1 infoResults">
+
+              <div>
+                <h5 class="fw-semibold text-capitalize ">page views</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="border-top border-bottom  border-primary border-5 bg-dark text-white py-3">
+    <div class="container-xl ">
+      <div class="row">
+        <div class="row">
+          <div class="col-md-4  m-auto">
+            <p class="text-light text-capitalize m-auto text-center ">
+              copyright &copy; loremIpsum 2024
+            </p>
+          </div>
+          <div class="col-md-8 ">
+            <ul class="nav  justify-content-end">
+              <li class="nav-item  ">
+                <a href="#" class="nav-link active fw-bold text-light">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#Services" class="nav-link fw-semibold text-light">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="#Portfolio" class="nav-link fw-semibold text-light">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link fw-semibold text-light">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link fw-semibold text-light">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase-database.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script3.js"></script>
+
+
+
+</body>
+
+</html>

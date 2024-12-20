@@ -1,0 +1,17 @@
+@media screen and (max-width: 900px) {
+  .icon-social {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  .headerImage {
+    padding-top: 50px;
+  }
+}
+.modal-dialog {
+  max-width: 1200px;
+}
+
+.mission {
+  right: 20px;
+}
