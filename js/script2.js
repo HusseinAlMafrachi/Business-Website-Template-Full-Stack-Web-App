@@ -4,13 +4,13 @@ import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, si
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB-GGED8JIbRV7DVopGEkZldEeIHC-wWVo",
-  authDomain: "full-stuck-soft-website.firebaseapp.com",
-  projectId: "full-stuck-soft-website",
-  storageBucket: "full-stuck-soft-website.firebasestorage.app",
-  messagingSenderId: "160697542731",
-  appId: "1:160697542731:web:eb22c2ff16c6ae0fc3c5ce",
-  measurementId: "G-1QKPXRDYHF"
+  apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
 };
 
 // Initialize Firebase
